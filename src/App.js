@@ -1,5 +1,5 @@
-import { Router } from 'react-router';
 import './App.css';
+import HomeIndex from './Components/Home/home_index';
 import MainNavBar from './Components/main-navbar';
 
 function App() {
@@ -7,6 +7,7 @@ function App() {
     
     <div className="App">
       <MainNavBar/>      
+      <HomeIndex/>
     </div>
   );
 }

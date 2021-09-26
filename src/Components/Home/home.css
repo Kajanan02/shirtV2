@@ -1,0 +1,52 @@
+.banner-heading{
+    color: #08588c !important;
+    z-index: 100 !important;
+    font-weight: 900;
+    font-size: 3.5rem;
+    letter-spacing: 5px;  
+    text-shadow: 2px 2px #d1d3d6;  
+}
+.banner-heading-box{
+    position: absolute;
+    top: 200px;
+    left: 60px;
+    text-align: center;
+    width: 340px;
+    /* text-shadow: 1px 1px #d1d3d6;   */
+} 
+.header-btn{
+    color: #ffffff;
+    border: 2px solid #27a6ff;
+    padding: 0.75rem 3rem 0.75rem;
+    font-size: 1.25rem;
+    box-shadow: 0px 8px 9px -5px rgb(0 0 0 / 20%), 0px 15px 22px 2px rgb(0 0 0 / 14%), 0px 6px 28px 5px rgb(0 0 0 / 12%);
+    transition: all 0.3s ease-in-out;
+    font-family: "ProximaSoft", sans-serif;
+    font-weight: 500;
+    line-height: 1.5;
+    border-radius: 999px;
+    text-transform: uppercase;
+    background-color: #27a6ff;
+    margin-top: 32px;
+}
+
+.header-btn:hover{
+    box-shadow: 0px 6px 6px -3px rgb(0 0 0 / 20%), 0px 10px 14px 1px rgb(0 0 0 / 14%), 0px 4px 18px 3px rgb(0 0 0 / 12%);
+    border-color: rgb(36, 153, 235);
+    background-color: rgb(36, 153, 235);
+}
+
+@media (max-width: 768px){
+    .banner-heading{
+        font-weight: 900;
+    font-size: 2.5rem;
+    }
+    .banner-heading-box{
+        width: 100%;
+        position: relative;
+        top: 0;
+        left: 0;
+    }
+    
+
+}
