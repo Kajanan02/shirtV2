@@ -5,7 +5,7 @@ import "./home.css";
 
 function HomeHeader() {
   return (
-    <div className="position-relative">
+    <div className="position-relative header">
       <picture>
       <source media="(max-width:768px)" srcSet={banner1} />
       <img src={banner} alt="Banner" width="100%" />
