@@ -1,5 +1,6 @@
 import React from 'react'
 import { Container } from 'react-bootstrap'
+import HomeBanner from './home-banner'
 import HomeHeader from './home-header'
 import Portfolio from './portfolio'
 import Testamonial from './testamonial'
@@ -14,6 +15,7 @@ function HomeIndex() {
             <Portfolio/>
             <Testamonial/>
             </Container>
+            <HomeBanner/>
            
         </div>
     )

@@ -1,4 +1,5 @@
 import './App.css';
+import Footer from './Components/footer';
 import HomeIndex from './Components/Home/home_index';
 import MainNavBar from './Components/main-navbar';
 
@@ -8,6 +9,7 @@ function App() {
     <div className="App">
       <MainNavBar/>      
       <HomeIndex/>
+      <Footer/>
     </div>
   );
 }

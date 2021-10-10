@@ -24,3 +24,30 @@
 .navbar{
   z-index: 999;
 }
+
+.footer-table{
+  border-top: 2px solid #023658;
+  margin-top: 100px;
+}
+.copy{
+  background-color: #001e32;
+ 
+}
+
+
+.para-copy{
+  color: white;
+}
+
+.para-copy:hover{
+  color: #00c2ee;
+  
+}
+
+.footer-links{
+  color: #f2fcff;
+  font-weight: 400;
+  font-size: 24px;
+  cursor: pointer;
+  margin-bottom: 24px;
+}
