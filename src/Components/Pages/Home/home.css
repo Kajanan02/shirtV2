@@ -113,10 +113,10 @@
   bottom: -64px;
 }
 .carousel-control-next-icon {
-  background-image: url("../../images/Home/chevron-right.svg");
+  background-image: url("../../../images/Home/chevron-right.svg");
 }
 .carousel-control-prev-icon {
-  background-image: url("../../images/Home/chevron-left.svg");
+  background-image: url("../../../images/Home/chevron-left.svg");
 }
 .carousel-control-next,
 .carousel-control-prev {
