@@ -9,6 +9,7 @@ function App() {
 
     function error() {
         return <h1>Page Not Found</h1>
+    //Tailwind
     }
 
     return (
