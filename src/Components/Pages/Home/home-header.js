@@ -1,6 +1,6 @@
 import React from "react";
-import banner from "../../images/Home/banner.webp";
-import banner1 from "../../images/Home/banner1.jpg";
+import banner from "../../../images/Home/banner.webp";
+import banner1 from "../../../images/Home/banner1.jpg";
 import "./home.css";
 
 function HomeHeader() {

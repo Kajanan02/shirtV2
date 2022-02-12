@@ -1,10 +1,10 @@
 import React from "react";
-import Img01 from "../../images/Home/01.png";
-import Img02 from "../../images/Home/02.jpg";
-import Img03 from "../../images/Home/03.jpg";
-import Img04 from "../../images/Home/04.jpg";
-import Img05 from "../../images/Home/05.webp";
-import Img06 from "../../images/Home/06.jpg";
+import Img01 from "../../../images/Home/01.png";
+import Img02 from "../../../images/Home/02.jpg";
+import Img03 from "../../../images/Home/03.jpg";
+import Img04 from "../../../images/Home/04.jpg";
+import Img05 from "../../../images/Home/05.webp";
+import Img06 from "../../../images/Home/06.jpg";
 
 function Portfolio() {
   return (

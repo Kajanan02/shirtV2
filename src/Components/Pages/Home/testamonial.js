@@ -1,11 +1,11 @@
 import React, { useState } from "react";
 import { Carousel, Card } from "react-bootstrap";
-import Avatar01 from "../../images/Home/avatar01.jpg";
-import Avatar02 from "../../images/Home/avatar02.jpg";
-import Avatar03 from "../../images/Home/avatar03.jpg";
-import Avatar04 from "../../images/Home/avatar04.jpg";
-import Avatar05 from "../../images/Home/avatar05.jpg";
-import Avatar06 from "../../images/Home/avatar06.jpg";
+import Avatar01 from "../../../images/Home/avatar01.jpg";
+import Avatar02 from "../../../images/Home/avatar02.jpg";
+import Avatar03 from "../../../images/Home/avatar03.jpg";
+import Avatar04 from "../../../images/Home/avatar04.jpg";
+import Avatar05 from "../../../images/Home/avatar05.jpg";
+import Avatar06 from "../../../images/Home/avatar06.jpg";
 
 function Testamonial() {
   const [index, setIndex] = useState(0);

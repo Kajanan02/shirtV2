@@ -4,10 +4,13 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { EditorProvider } from '@scenify/sdk'
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+      <EditorProvider>
+          <App />
+      </EditorProvider>
   </React.StrictMode>,
   document.getElementById('root')
 );

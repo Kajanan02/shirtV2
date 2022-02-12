@@ -1,0 +1,22 @@
+.panelItem {
+    width: 84px;
+    height: 80px;
+    backgroundColor: gray;
+    display: flex;
+    alignItems: center;
+    flexDirection: column;
+    justifyContent: center;
+    fontFamily: Uber Move Text;
+    fontWeight: 500;
+    fontSize: 0.8rem;
+    userSelect: none;
+    transition: all 0.5s;
+    gap: 0.1rem;
+
+}
+
+.panelItem:hover{
+    cursor: pointer;
+    backgroundColor: white;
+    transition: all 1s;
+}
